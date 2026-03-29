@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Cardiovascular Hiddenness",
+  "slug": "ctgov-cardiovascular-hiddenness",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-cardiovascular-hiddenness",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate within the cardiovascular family among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on cardiovascular trial hiddenness across sponsor classes, phases, and leading sponsors.",
+  "body": "How quiet is the older cardiovascular trial record in ClinicalTrials.gov once heart and vascular studies are grouped into one registry-first family? We analysed 26,062 eligible older cardiovascular studies from the March 29, 2026 full-registry snapshot, spanning coronary, stroke, heart-failure, rhythm, and vascular records. Primary comparisons tracked two-year no-results rates, ghost protocols, sponsor-class mix, phase patterns, and the sponsors holding the biggest unresolved stock. Across older cardiovascular studies, 75.0 percent lacked posted results and 39.3 percent showed neither results nor a linked publication trail. PHASE1 remained the largest phase bucket, while Assistance Publique - H\u00f4pitaux de Paris carried the biggest named sponsor stock at 144 older missing-results studies in the cardiovascular family. The cardiovascular record is therefore not just incomplete. It remains structurally quiet across common phases despite its central place in evidence-based medicine. This matters for guideline-facing cardiovascular medicine. These family-level estimates measure registry-visible absence rather than legal culpability or publication quality within this cardiovascular frame.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How quiet is the older cardiovascular trial record in ClinicalTrials.gov once heart and vascular studies are grouped into one registry-first family?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 26,062 eligible older cardiovascular studies from the March 29, 2026 full-registry snapshot, spanning coronary, stroke, heart-failure, rhythm, and vascular records."
+    },
+    {
+      "role": "Method",
+      "text": "Primary comparisons tracked two-year no-results rates, ghost protocols, sponsor-class mix, phase patterns, and the sponsors holding the biggest unresolved stock."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across older cardiovascular studies, 75.0 percent lacked posted results and 39.3 percent showed neither results nor a linked publication trail."
+    },
+    {
+      "role": "Secondary result",
+      "text": "PHASE1 remained the largest phase bucket, while Assistance Publique - H\u00f4pitaux de Paris carried the biggest named sponsor stock at 144 older missing-results studies in the cardiovascular family."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The cardiovascular record is therefore not just incomplete. It remains structurally quiet across common phases despite its central place in evidence-based medicine. This matters for guideline-facing cardiovascular medicine."
+    },
+    {
+      "role": "Boundary",
+      "text": "These family-level estimates measure registry-visible absence rather than legal culpability or publication quality within this cardiovascular frame."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Cardiovascular Hiddenness dashboard",
+    "data": "26,062 eligible older cardiovascular studies in the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-cardiovascular-hiddenness",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "PubMed E-utilities. National Center for Biotechnology Information. Accessed March 29, 2026.",
+    "Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement. BMJ. 2021;372:n71."
+  ]
+}
