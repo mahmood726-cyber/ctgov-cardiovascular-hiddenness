@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Cardiovascular Hiddenness",
+  "slug": "ctgov-cardiovascular-hiddenness",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How quiet is the older cardiovascular trial record in ClinicalTrials.gov once heart and vascular studies are grouped into one registry-first family? We analysed 26,062 eligible older cardiovascular studies from the March 29, 2026 full-registry snapshot, spanning coronary, stroke, heart-failure, rhythm, and vascular records. Primary comparisons tracked two-year no-results rates, ghost protocols, sponsor-class mix, phase patterns, and the sponsors holding the biggest unresolved stock. Across older cardiovascular studies, 75.0 percent lacked posted results and 39.3 percent showed neither results nor a linked publication trail. PHASE1 remained the largest phase bucket, while Assistance Publique - Hôpitaux de Paris carried the biggest named sponsor stock at 144 older missing-results studies in the cardiovascular family. The cardiovascular record is therefore not just incomplete. It remains structurally quiet across common phases despite its central place in evidence-based medicine. This matters for guideline-facing cardiovascular medicine. These family-level estimates measure registry-visible absence rather than legal culpability or publication quality within this cardiovascular frame.",
+  "word_count": 156,
+  "sentence_count": 9,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How quiet is the older cardiovascular trial record in ClinicalTrials.gov once heart and vascular studies are grouped into one registry-first family?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 26,062 eligible older cardiovascular studies from the March 29, 2026 full-registry snapshot, spanning coronary, stroke, heart-failure, rhythm, and vascular records."
+    },
+    {
+      "role": "Method",
+      "text": "Primary comparisons tracked two-year no-results rates, ghost protocols, sponsor-class mix, phase patterns, and the sponsors holding the biggest unresolved stock."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across older cardiovascular studies, 75.0 percent lacked posted results and 39.3 percent showed neither results nor a linked publication trail."
+    },
+    {
+      "role": "Secondary result",
+      "text": "PHASE1 remained the largest phase bucket, while Assistance Publique - Hôpitaux de Paris carried the biggest named sponsor stock at 144 older missing-results studies in the cardiovascular family."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The cardiovascular record is therefore not just incomplete. It remains structurally quiet across common phases despite its central place in evidence-based medicine. This matters for guideline-facing cardiovascular medicine."
+    },
+    {
+      "role": "Boundary",
+      "text": "These family-level estimates measure registry-visible absence rather than legal culpability or publication quality within this cardiovascular frame."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Cardiovascular Hiddenness dashboard",
+    "data": "26,062 eligible older cardiovascular studies in the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-cardiovascular-hiddenness",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate within the cardiovascular family among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": false,
+        "detail": "Found 9 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
