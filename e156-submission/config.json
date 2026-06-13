@@ -3,7 +3,7 @@
   "slug": "ctgov-cardiovascular-hiddenness",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-cardiovascular-hiddenness",
+  "path": "ctgov-cardiovascular-hiddenness",
   "type": "methods",
   "primary_estimand": "2-year no-results rate within the cardiovascular family among eligible older CT.gov studies",
   "summary": "A standalone E156 project on cardiovascular trial hiddenness across sponsor classes, phases, and leading sponsors.",
